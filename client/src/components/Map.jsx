@@ -40,7 +40,7 @@ export default function Map() {
     const center = useMemo(() => ({ lat:22.38136, lng: 114.18990}));
     const box = ({lat: 22.391810, lng: 113.976771});
     const { isLoaded } = useLoadScript({
-      googleMapsApiKey : "AIzaSyCyKy8jPXN3yF3KZ5IHHq-VaxLEqcHahP0"
+      googleMapsApiKey : "YOURS_KEY_HERE"
     });
 
     const [loading, setLoading] = useState(true)
