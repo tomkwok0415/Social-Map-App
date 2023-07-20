@@ -1,0 +1,79 @@
+ /**
+* CSCI2720/ESTR2106 Course Project
+* A Social Map of Events
+*
+* We declare that the assignment here submitted is original
+* except for source material explicitly acknowledged,
+* and that the same or closely related material has not been
+* previously submitted for another course.
+* We also acknowledge that we are aware of University policy and
+* regulations on honesty in academic work, and of the disciplinary
+* guidelines and procedures applicable to breaches of such
+* policy and regulations, as contained in the website.
+*
+* University Guideline on Academic Honesty:
+*   http://www.cuhk.edu.hk/policy/academichonesty
+* Faculty of Engineering Guidelines to Academic Honesty:
+*   https://www.erg.cuhk.edu.hk/erg/AcademicHonesty
+*
+* Student Name: Chow Pak Ho, Kwok Ho Cheung, Lai Chak Yan, Leung Wai Pan, Mak Tsz Ho
+* Student ID  : 1155144753,1155136168,1155144577,1155144757,1155141820
+* Date        : 17/12/2022
+*/ 
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navItem {
+  color: #333333;
+  margin-left: 25%;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+a { 
+  color: #333333 !important;
+  text-decoration: none !important;
+}
+
+.navContainer {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
