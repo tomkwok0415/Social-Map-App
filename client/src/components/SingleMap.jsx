@@ -55,7 +55,7 @@ export default function SingleMap() {
     const center = useMemo(() => ({ lat:lat, lng:lng}));
     // const box = ({lat: 22.391810, lng: 113.976771});
     const { isLoaded } = useLoadScript({
-      googleMapsApiKey : "AIzaSyCyKy8jPXN3yF3KZ5IHHq-VaxLEqcHahP0"
+      googleMapsApiKey : "YOURS_KEY_HERE"
     });
   
     
